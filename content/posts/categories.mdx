@@ -1,0 +1,15 @@
+---
+title: Sort posts into categories
+description: Each post has one category, and each category with a post gets its own page.
+author: Your Name
+date: 2026-10-02
+category: news
+---
+
+This blog has two categories, News and Guides. You set them in `site.config.ts`, under `sections.blog.categories`.
+
+## Add a category
+
+Add an entry with a `slug`, a `name` for its tab, and a `title` and `description` for its page. Then set that slug as the `category` of a post.
+
+A category page exists only when at least one post is in it, so an empty category never shows a blank page.

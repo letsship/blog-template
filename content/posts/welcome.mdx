@@ -1,0 +1,30 @@
+---
+title: Welcome to your blog
+description: How a post works on this site, and what to change first.
+author: Your Name
+date: 2026-10-01
+category: guides
+featured: 1
+---
+
+This is the first post of your blog. Replace it with your own, or delete it when you publish your first real post.
+
+## Write a post
+
+Each post is one MDX file in `content/posts/`. The file name is the address of the post, so `welcome.mdx` is at `/welcome/`.
+
+The lines between the two `---` at the top are the frontmatter. These fields are required:
+
+- `title`, the heading of the post.
+- `author`, a name from `authors` in `site.config.ts`.
+- `date`, the day you publish it.
+- `category`, a slug from `categories` in `site.config.ts`.
+
+Add `featured: 1` to show a post first on the home page.
+
+> [!TIP]
+> Set `draft: true` to keep a post out of the site while you write it.
+
+## Change the look
+
+The name, the description, the colours and the fonts of this site come from `brand/brand.dna.json`. Change the brand there, never in CSS.
