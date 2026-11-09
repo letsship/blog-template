@@ -5,7 +5,7 @@ import { defineSiteConfig } from "@lets-ship/site/config";
  * fonts are not here: they come from brand/brand.dna.json. Schema: https://letsship.ai/schema/site.json
  */
 export const site = defineSiteConfig({
-	origin: "https://your-company.sites.letsship.ai",
+	origin: "https://your-company.letsship.app",
 	titleSeparator: "|",
 	sections: {
 		website: false,
